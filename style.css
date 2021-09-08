@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 header {
 	background: #04B9C2;
 	padding: 30px ;
