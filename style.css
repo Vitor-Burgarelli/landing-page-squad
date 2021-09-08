@@ -1,4 +1,59 @@
 header {
-	background: #BBBBBB;
-	padding: 20px 0;
+	background: #04B9C2;
+	padding: 30px ;
 }
+
+.titulo-principal {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #9AE5E8;
+	margin-left: 50px; 
+	text-align: center; 
+}
+
+.home {
+	background: #DBF9FA; 
+	padding: 30px; 
+}
+
+.sobre-nos {
+	background: #FFFFFF; 
+}
+
+img {
+	width:150px;
+	height: 150px; 
+	float:left;
+	margin: 0 20px 20px 0;
+
+}
+
+.biografias {
+	width: 420px;
+	margin: 0 auto;
+}
+
+.biografias li {
+	display: inline-block;
+	
+}
+
+.portfolio {
+	background: #DBF9FA; 
+}
+
+.duvida {
+	background: #FFFFFF; 
+}
+
+footer {
+	background:#05A5AD; 
+	text-align:center;
+	padding: 40px 0;
+
+}
+
+
+
+
