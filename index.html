@@ -8,93 +8,112 @@
   </head>
   <body>
       <header>
-          <h1 class="titulo-principal">Squad 3</h1>
-          <div id="menu">
-            <a href="#home">HOME</a>
-            <a href="#sobre-nos">SOBRE NÓS</a>
-            <a href="#portfolio">PORTFÓLIO</a>
-          </div>          
+        <div id="menus">
+            <h1><img class="logo" src="logosquad.png" alt="Squad 3"></h1>
+            <nav>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-nos">Sobre nós</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+              </ul>   
+            </nav>
+          </div>
       </header>
 
       <main>
       <section class="home" id="home">
-        <p>O squad 3 é um dos grupos do projeto #TeuFuturo de 2021, sendo composto por quatro integrantes: Ana Fleischmann, Ana Wives, Suélen Araújo e Vitor Burgarelli. O curso teve início em abril de 2021, sendo promovido pela IMED e a +PraTi.</p>
-
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbIRryHLsNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>     
+          <p id="introducao">O squad 3 é um dos grupos do projeto #TeuFuturo de 2021, sendo composto por quatro integrantes: Ana Fleischmann, Ana Wives e Vitor Burgarelli. O curso teve início em abril de 2021, sendo promovido pela IMED e a +PraTi.</p>
       </section>
 
       <section class="sobre-nos" id="sobre-nos">
         <h2>Sobre nós</h2>
 
-        <img src="fleischmann.jpeg" alt="Imagem da integrante Ana Carolina Palma Fleischmann">
-        <h2>Ana Carolina Palma Fleischmann</h2>
-        <p>Gaúcha, 17 anos, ingressou na programação por influência do seu pai, que cursou Ciência da Computação. Contudo, seu primeiro contato com a TI se deu em 2021, pois foi apresentada a área pela Olimpíada Nacional de Desenvolvimento de Aplicativos em 2020. Ana Fleischmann estuda no Colégio Tiradentes da Brigada Militar de Porto Alegre, no qual cursa o segundo ano do Ensino Médio. Em seu tempo livre, gosta de ler livros de ficção, assim como ouvir mpb e rap.</p>
+      <ul class="integrantes">
+        <li>
+          <img class="imagens" src="fleischmann.jpeg" alt="Imagem da integrante Ana Carolina Palma Fleischmann">
+          <h3>Ana Carolina Palma Fleischmann</h3>
+          <p class="biografia">Gaúcha, 17 anos, ingressou na programação por influência do seu pai, que cursou Ciência da Computação. Contudo, seu primeiro contato com a TI se deu em 2021, pois foi apresentada a área pela Olimpíada Nacional de Desenvolvimento de Aplicativos em 2020. Ana Fleischmann estuda no Colégio Tiradentes da Brigada Militar de Porto Alegre, no qual cursa o segundo ano do Ensino Médio. Em seu tempo livre, gosta de ler livros de ficção, assim como ouvir mpb e rap.</p>
+        </li>
 
-        <img src="wives.jpeg" alt="Imagem da integrante Ana Paula da Silva Wives">
-        <h2>Ana Paula da Silva Wives</h2>
-        <p>Ana Wives é apaixonada por leitura, música e idiomas, mas a sua mais nova paixão é a programação! Inspirada pelo irmão, que cursa e trabalha na área da TI, buscou esse caminho devido a sua curiosidade com seus 17 anos, onde encontrou o #TeuFuturo. Atualmente, estuda na Escola Técnica Estadual Parobé, no terceiro ano do Ensino Médio.</p>
+        <li>
+          <img class="imagens" src="wives.jpeg" alt="Imagem da integrante Ana Paula da Silva Wives">
+          <h3>Ana Paula da Silva Wives</h3>
+          <p class="biografia">Ana Wives é apaixonada por leitura, música e idiomas, mas a sua mais nova paixão é a programação! Inspirada pelo irmão, que cursa e trabalha na área da TI, buscou esse caminho devido a sua curiosidade com seus 17 anos, onde encontrou o #TeuFuturo. Atualmente, estuda na Escola Técnica Estadual Parobé, no terceiro ano do Ensino Médio.</p>
+        </li>
 
-        <img src="burgarelli.jpeg" alt="Imagem do integrante Vitor Cardoso Burgarelli">
-        <h2>Vitor Cardoso Burgarelli</h2>
-        <p>Nascido na cidade de São Paulo, Vitor tem 16 anos e cursa o segundo ano do Ensino Médio no Colégio Tiradentes da Brigada Militar de Porto Alegre. Seus hobbies são jogos online, assim como assistir vídeos variados no YouTube. Dessa forma começou seu interesse pela tecnologia, pois encontrou um ambiente de diversão e conhecimento.</p>
+        <li>
+        <img class="imagens" src="burgarelli.jpeg" alt="Imagem do integrante Vitor Cardoso Burgarelli">
+        <h3>Vitor Cardoso Burgarelli</h3>
+        <p class="biografia">Nascido na cidade de São Paulo, Vitor tem 16 anos e cursa o segundo ano do Ensino Médio no Colégio Tiradentes da Brigada Militar de Porto Alegre. Seus hobbies são jogos online, assim como assistir vídeos variados no YouTube. Dessa forma começou seu interesse pela tecnologia, pois encontrou um ambiente de diversão e conhecimento.</p>
+       </li>
+      </ul>
       </section>
 
     <section class="portfolio" id="portfolio">
       <h2>Portfolio</h2>
 
-      <h3>Jogos Clássicos</h3>
-      <div class="pong">
-        <img src="pong.png" alt="Imagem do jogo Pong">
-        <p>Pong</p>
-        <p>A primeira atividade feita no #TeuFuturo foi o desenvolvimento do jogo Pong com a linguagem Scratch. Assim, foi possível desenvolver uma base da lógica de programação de uma forma simples e divertida.</p>
-        <p>Em seguida, foi programado o mesmo jogo, mas utilizando a linguagem JavaScript pelo P5.js. A partir disso, o pensamento computacional foi mais desenvolvido.</p>
-        <p>As habilidades desenvolvidas foram o uso de variáveis e funções. Também foi ensinado como criar um jogo completo, que possui  controles, animações, placar e sons.</p>
-      </div>
+     <ul class="projetos">
 
-      <div class="freeway">
-        <img src="freeway.png" alt="Imagem do jogo Freeway">
-        <hp>Freeway</hp>
-        <p>O jogo Freeway foi a segunda tarefa proposta pelo #Teu Futuro, desenvolvido pelo P5.js com a linguagem JavaScript. Com esse projeto, foi possível aprimorar as habilidades anteriores de programação.</p>
-        <p>Com esse projeto, o grupo aprendeu a utilizar listas (arrays), a adicionar imagens no P5.js e a aperfeiçoar o pensamento computacional.</p>
-      </div>
+        <h3>Jogos Clássicos</h3>
 
-      <h3>HTML, CSS e JavaScript</h3>
-      <div class="logica-programacao-1">
-        <img src="logica-programacao-1.png" alt="Imagem de um pop-up com a pergunta: Qual o ano limite?">
-        <p>Lógica de Programação I</p>
-        <p>A fim de promover uma maior autonomia na programação, são propostas atividades variadas, tendo como principal foco introduzir HTML e JavaScript.</p>
-        <p>Ferramentas como laços, loops, fors e whiles são apresentadas mais profundamente. Uma das páginas criada tem o objetivo de exibir todos os anos que tiveram o evento Copa do Mundo, na qual o usuário determina o ano limite por meio de um pop-up.</p>
-      </div>
+        <li>
+          <img class="jogosimagens" src="pong.png" alt="Imagem do jogo Pong">
+          <h4>Pong</h4>
+          <p class="descricao">A primeira atividade feita no #TeuFuturo foi o desenvolvimento do jogo Pong com a linguagem Scratch. Assim, foi possível desenvolver uma base da lógica de programação de uma forma simples e divertida.</p>
+          <p class="descricao">Em seguida, foi programado o mesmo jogo, mas utilizando a linguagem JavaScript pelo P5.js. A partir disso, o pensamento computacional foi mais desenvolvido.</p>
+          <p class="descricao">As habilidades desenvolvidas foram o uso de variáveis e funções. Também foi ensinado como criar um jogo completo, que possui  controles, animações, placar e sons.</p> 
+        </li>
 
-      <div class="git-github">
-        <p>Git e GitHub</p>
-        <p>O curso também proporciona um aprendizado quanto a sistemas de controle de versões, no caso, Git e GitHub. A equipe foi instigada a administrar arquivos trazidos pelo professor, levando ao aprendizado sobre o uso de tais sistemas.</p>
-      </div>
+        <li>
+          <img class="jogosimagens" src="freeway.png" alt="Imagem do jogo Freeway">
+          <h4>Freeway</h4>
+          <p class="descricao">O jogo Freeway foi a segunda tarefa proposta pelo #Teu Futuro, desenvolvido pelo P5.js com a linguagem JavaScript. Com esse projeto, foi possível aprimorar as habilidades anteriores de programação.</p>
+          <p class="descricao">Com esse projeto, o grupo aprendeu a utilizar listas (arrays), a adicionar imagens no P5.js e a aperfeiçoar o pensamento computacional.</p>
+        </li>
 
-      <div class="logica-programacao-2">
-        <img src="creeper.png" alt="Imagem de um creeper, persongem do jogo MineCraft">
-        <img src="jogo-alvo.png" alt="Imagem do jogo feito no curso">
-        <p>Lógica de Programação II</p>
-        <p>Nesse módulo, o squad é estimulado a aprofundar seu conhecimento em JavaScript, com enfoque em suas funções. Além disso, o uso do Canvas é um dos tópicos em questão, como é visto na atividade que pede que seja exibido um Creeper - personagem do jogo MineCraft.</p>
-      </div>
+        <li>
+          <img class="jogosimagens" src="logica-programacao-1.png" alt="Imagem de um pop-up com a pergunta: Qual o ano limite?">
+          <h4>HTML, CSS e JavaScript</h4>
+          <h4>Lógica de Programação I</h4>
+          <p class="descricao">A fim de promover uma maior autonomia na programação, são propostas atividades variadas, tendo como principal foco introduzir HTML e JavaScript.</p>
+          <p class="descricao">Ferramentas como laços, loops, fors e whiles são apresentadas mais profundamente. Uma das páginas criada tem o objetivo de exibir todos os anos que tiveram o evento Copa do Mundo, na qual o usuário determina o ano limite por meio de um pop-up.</p>
+        </li>
 
-      <div class="javascript">
-        <img src="pagina-javascript.png" alt="Imagem da página desenvolvida no curso">
-        <p>JavaScript</p>
-        <p>Nessa unidade, o estudante é encorajado a pôr em prática essa linguagem tão utilizada na web. Isso ocorre por meio de um projeto base que o curso fornece, no qual o grupo vai aperfeiçoando a página. </p>
-        <p>Com esse curso, aprende-se a manipular elementos da página, como utilizar e validar formulários, buscar dados em outro servidor com AJAX e a executar boas práticas de organização de código Javascript.</p>
-      </div>
+        <li>
+          <h4>Git e GitHub</h4>
+          <p class="descricao">O curso também proporciona um aprendizado quanto a sistemas de controle de versões, no caso, Git e GitHub. A equipe foi instigada a administrar arquivos trazidos pelo professor, levando ao aprendizado sobre o uso de tais sistemas.</p>
+        </li>
 
-      <div class="html5-css3">
-        <img src="barbearia-alura.PNG" alt="Imagem da página desenvolvida no curso">        
-        <p>HTML5 e CSS3</p>
-        <p>A fim de desenvolver as habilidades no HTML e no CSS é proposto a construção de uma página web do zero. Esse curso apresenta quatro partes, em que na sua conclusão, o aluno detém de conhecimento suficiente para iniciar a construir páginas web com maior autonomia.</p>
-      </div>
+        <li>
+          <img class="jogosimagens" src="creeper.png" alt="Imagem de um creeper, persongem do jogo MineCraft">
+          <img class="jogosimagens" src="jogo-alvo.png" alt="Imagem do jogo feito no curso">
+          <h4>Lógica de Programação II</h4>
+          <p class="descricao">Nesse módulo, o squad é estimulado a aprofundar seu conhecimento em JavaScript, com enfoque em suas funções. Além disso, o uso do Canvas é um dos tópicos em questão, como é visto na atividade que pede que seja exibido um Creeper - personagem do jogo MineCraft.</p>
+        </li>
+
+        <li>
+          <img class="jogosimagens" src="pagina-javascript.png" alt="Imagem da página desenvolvida no curso">
+          <h4>JavaScript</h4>
+          <p class="descricao">Nessa unidade, o estudante é encorajado a pôr em prática essa linguagem tão utilizada na web. Isso ocorre por meio de um projeto base que o curso fornece, no qual o grupo vai aperfeiçoando a página. </p>
+          <p class="descricao">Com esse curso, aprende-se a manipular elementos da página, como utilizar e validar formulários, buscar dados em outro servidor com AJAX e a executar boas práticas de organização de código Javascript.</p>
+        </li>
+
+        <li>
+          <img class="jogosimagens" src="barbearia-alura.PNG" alt="Imagem da página desenvolvida no curso">        
+          <h4>HTML5 e CSS3</h4>
+          <p class="descricao">A fim de desenvolver as habilidades no HTML e no CSS é proposto a construção de uma página web do zero. Esse curso apresenta quatro partes, em que na sua conclusão, o aluno detém de conhecimento suficiente para iniciar a construir páginas web com maior autonomia.</p>
+        </li>
+    </ul>
     </section>
 
     <section class="duvida">
-      <h2>Tem alguma dúvida?</h2>
-      <p>Entre em contato conosco:</p>
-      <ul>
+    
+      <ul class="contatos">
+        <h2>Tem alguma dúvida?</h2>
+        <p id="entre">Entre em contato conosco:</p>
         <li>ana.palma.fleischmann@gmail.com</li>
         <li>wivesanapaula@gmail.com</li>
         <li>vcburgarelli@gmail.com</li>
@@ -103,6 +122,7 @@
   </main> 
 
   <footer>
+    <img class="footerlogo" src="logosquad.png" alt="Squad 3">
     <p class="copyright">&copy; Copyright Squad 3 - 2021</p>
   </footer>
   </body>
