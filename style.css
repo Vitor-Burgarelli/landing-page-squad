@@ -2,6 +2,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #04B9C2;
 	padding: 20px;
@@ -131,29 +135,40 @@ nav a:hover {
 
 .portfolio {
 	background: #DBF9FA; 
+	padding: 50px;
 }
 
 .portfolio h2 {
 	font-size:30px;
 	font-weight: bold;
 	color: #045559;
-	padding: 30px 0 30px 50px; 
+	padding: 30px 0 10px 50px; 
+}
+
+.portfolio h3:before {
+	content: "◌";
+
 }
 
 .portfolio h3 {
-	font-size: 19px;
+	font-size: 26px;
 	font-weight: bold;
 	color:#00C1CB;
+	padding: 25px 0 0 0;
 }
 
-.portfolio h4 {
 
+.portfolio h4 {
+	font-size:26px;
+	font-weight: bold;
+	color: #045559;
+	padding: 20px 40px 10px 20px;
 }
 
 .jogosimagens {
 	width: 200px;
 	float: left; 
-	margin: 0 20px 20px 0;
+	margin: 14px 20px 0 0;
 	border: 3px solid #30DBE4;
 	border-radius: 20px;
 }
@@ -161,32 +176,26 @@ nav a:hover {
 
 .descricao {
 	font-size: 17px;
-	margin: 10px 0 0;
+	margin: 10px 25px 20px 25px;
 }
 
 .projetos {
 	width: 940px;
 	margin: 0 auto; 
-	padding: 50px 0;
+	padding: 20px 0;
 
 }
 
 .projetos li {
-	display:inline-block;
-	text-align: justify;
-	width: 25%; 
+	background: #9AE5E8;
+	text-align: justify; 
 	vertical-align: top; 
-	margin: 0 4%; 
+	margin:4%; 
 	padding: 10px; 
 	box-sizing: border-box;
 	border: 5px solid #04B9C2;
 	border-radius: 20px;
 }
-
-
-
-
-
 
 .duvida {
 	background: #FFFFFF; 
@@ -197,7 +206,7 @@ nav a:hover {
 	font-size:30px;
 	font-weight: bold;
 	color: #045559;
-	padding: 15px 50px 15px 1px;
+	padding: 15px 70px 15px 1px;
 }
 
 .duvida {
@@ -207,8 +216,8 @@ nav a:hover {
 #entre { 
 	font-size:18px;
 	text-align: center;
-	padding-right: 250px;
-	padding-top: 15px; 
+	padding-right: 210px;
+	padding-top: 20px; 
 	
 }
 
@@ -232,14 +241,19 @@ footer {
 	background:#05A5AD; 
 	text-align:center;
 	font-weight: bold;
-	padding: 40px 0;
+	padding-right: 78px;
 
+}
+
+.rodape {
+	width: 940px;
+	margin: 0 auto; 
+	padding: 50px 0;
 }
 
 .footerlogo {
 	width:110px; 
-	padding: 20px;
-	padding-left: 44px; 
+	padding-left: 41px; 
 }
 
 
